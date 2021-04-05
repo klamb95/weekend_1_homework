@@ -56,7 +56,7 @@ def add_pet_to_customer(customers, pet):
 
 def customer_can_afford_pet(customers, name):
     for customer in customers:
-        if customer[0]['name'] == 1000:
+        if customer[0]['cash'] == 1000:
             return True
 
 
